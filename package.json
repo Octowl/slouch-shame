@@ -11,5 +11,9 @@
     "Tessel"
   ],
   "license": "MIT",
-  "readme": "A bare bones Tessel 2 blinky script."
+  "readme": "A bare bones Tessel 2 blinky script.",
+  "dependencies": {
+    "twitter": "^1.2.5",
+    "util": "^0.10.3"
+  }
 }
