@@ -22,7 +22,8 @@ module.exports = {
 				} else {
 					// Name the image
 					console.log('Taking Picture');
-					process.sendfile("slouching", image);
+					twitter(image);
+					// process.sendfile("slouching", image);
 					console.log('done.');
 					// Turn the camera off to end the script
 					camera.disable();
